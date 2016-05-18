@@ -50839,3 +50839,102 @@ Started GET "/" for ::1 at 2016-05-18 14:37:44 +0100
 Processing by PController#home as HTML
   Rendered p/home.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 14:38:57 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/p.self-f47cea424b74e53a7ab083e3bac66c4d324b5687038c81188b456904ab9e84a7.css?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:38:57 +0100
+
+
+Started GET "/signin" for ::1 at 2016-05-18 14:39:03 +0100
+Processing by PagesController#signin as HTML
+  Rendered pages/signin.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 78ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:39:03 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:39:06 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:39:10 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:39:10 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:39:10 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:39:17 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:39:17 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:39:17 +0100
+
+
+Started GET "/signin" for ::1 at 2016-05-18 14:39:59 +0100
+Processing by PagesController#signin as HTML
+  Rendered pages/signin.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 97ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:39:59 +0100

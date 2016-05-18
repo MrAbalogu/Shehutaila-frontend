@@ -81,7 +81,7 @@ Rails.application.configure do
   
 
   # serve static assets
-  config.serve_static_assets = true
+  config.serve_static_files = true
   config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 
 end
