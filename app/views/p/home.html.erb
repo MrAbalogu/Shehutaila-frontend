@@ -9,23 +9,19 @@
 
 		<div class="container" >
 			
-			<div class="nav-container " >
-				<div class="logo pull-left" ></div>
-				<div class="nav pull-right" >
+			<div class="nav-container ">
 					<ul>
-						<li><a href="3">Login</a></li>
-						<li><a href="3">SignUp</a></li>
+						<li class="logo pull-left" style="padding:0"></li>
+						<li class="pull-right"><a class="mylist" href="/signin">LOGIN</a></li>
+						<li class="pull-right"><a class="mylist" href="/signup">SIGNUP</a></li>
 					</ul>
-				</div>
 			</div>
 
 			<div class="home-content" >
-				<h1>Bringing to you the best<br>tailoring expierience</h1>
-				<div class="btn-container " >
-					<a href="" class="btn pull-right"> Sign Up</a>
-				</div>
-
-				<%= image_tag("direction.png", class: "direction", alt: "direction arrow") %>
+				<h1>Bringing <span class="caption-gray">to</span> you <span class="caption-gray">the best <br>tailoring </span> expierience</h1>
+				<form action="/signup">
+				<button class="blue-button">SIGN UP</button>
+				</form>
 			</div>
 
 		</div>

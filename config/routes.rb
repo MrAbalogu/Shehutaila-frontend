@@ -22,6 +22,6 @@ Rails.application.routes.draw do
 
   get '/admin' => "posts#admin"
 
-  root 'pages#progress'
+  root 'p#home'
 
 end

@@ -53,6 +53,25 @@ _______________________________________________________________*/
 	padding: 40px 30px;
 }
 
+.nav-container ul {
+	list-style-type: none;
+}
+
+.nav-container ul li {
+	padding-right: 20px;
+}
+
+.mylist {
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	font-style: 
+}
+
+.caption-gray {
+	color: #A8B2BF;
+}
+
 .logo {
 	background-image: url("logo-st.png");
 	width: 21px;
@@ -84,9 +103,7 @@ _______________________________________________________________*/
 /*content*/
 
 .home-content {
-	padding-top: 12%;
-	padding-left: 15%;
-	max-width: 40%;
+	margin-top: 150px;
 }
 
 .home-content h1 {

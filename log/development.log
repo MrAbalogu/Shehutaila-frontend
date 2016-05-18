@@ -48351,3 +48351,2491 @@ Processing by PagesController#landingpage9 as HTML
   Rendered pages/_footer.html.erb (0.6ms)
   Rendered pages/landingpage9.html.erb within layouts/application (96.8ms)
 Completed 200 OK in 202ms (Views: 201.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2016-05-18 13:45:00 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 302ms (Views: 301.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for ::1 at 2016-05-18 13:45:05 +0100
+Processing by PagesController#signin as HTML
+  Rendered pages/signin.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 132ms (Views: 131.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2016-05-18 13:45:12 +0100
+Processing by PagesController#landingpage9 as HTML
+  Rendered pages/_sidebar.html.erb (18.6ms)
+  Rendered pages/_header.html.erb (0.1ms)
+  Rendered pages/_footer.html.erb (0.0ms)
+  Rendered pages/landingpage9.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 157ms (Views: 156.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for ::1 at 2016-05-18 13:46:24 +0100
+Processing by PagesController#signin as HTML
+  Rendered pages/signin.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2016-05-18 13:46:26 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for ::1 at 2016-05-18 13:46:29 +0100
+Processing by PagesController#landingpage9 as HTML
+  Rendered pages/_sidebar.html.erb (2.2ms)
+  Rendered pages/_header.html.erb (0.1ms)
+  Rendered pages/_footer.html.erb (0.1ms)
+  Rendered pages/landingpage9.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 84ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/landingpage" for ::1 at 2016-05-18 13:47:50 +0100
+Processing by PagesController#landingpage as HTML
+  Rendered pages/landingpage.html.erb within layouts/application (244.3ms)
+Completed 200 OK in 372ms (Views: 371.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/ico2-c56173b06ad27f1e6abd2010c313920b08802c1e45e6620f9dfb74d6c1b97981.png" for ::1 at 2016-05-18 13:47:50 +0100
+
+
+Started GET "/assets/ico1-72562c917b19b301264c81682e58e8867eb46439643cd2bd7c1b2e8365cc4cd5.png" for ::1 at 2016-05-18 13:47:50 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 13:47:50 +0100
+
+
+Started GET "/p/bookingform" for ::1 at 2016-05-18 13:48:09 +0100
+Processing by PController#bookingform as HTML
+  Rendered p/bookingform.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 108ms (Views: 107.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for ::1 at 2016-05-18 13:48:26 +0100
+
+ActionController::RoutingError (uninitialized constant PostsController):
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.1) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.1) lib/action_dispatch/routing/route_set.rb:819:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  activerecord (4.2.1) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (46.9ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (161.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (99.9ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (226.9ms)
+
+
+Started GET "/pages/lp2" for ::1 at 2016-05-18 13:48:42 +0100
+Processing by PagesController#lp2 as HTML
+  Rendered pages/lp2.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 13:48:42 +0100
+
+
+Started GET "/pages/playground" for ::1 at 2016-05-18 13:49:05 +0100
+Processing by PagesController#playground as HTML
+  Rendered pages/playground.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 80ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/p/home" for ::1 at 2016-05-18 13:49:56 +0100
+
+ActionController::RoutingError (No route matches [GET] "/p/home"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.0ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.9ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (117.3ms)
+
+
+Started GET "/p/home" for ::1 at 2016-05-18 13:50:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/p/home"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.0ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.7ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (119.2ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 13:50:47 +0100
+Processing by PagesController#progress as HTML
+  Rendered pages/progress.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 97ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 13:50:48 +0100
+Processing by PagesController#progress as HTML
+  Rendered pages/progress.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 13:50:49 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 13:50:57 +0100
+Processing by PagesController#progress as HTML
+  Rendered pages/progress.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 13:50:57 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 13:51:00 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 83ms (Views: 82.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 13:51:00 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 13:51:00 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 13:51:04 +0100
+Processing by PagesController#progress as HTML
+  Rendered pages/progress.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 13:51:07 +0100
+Processing by PagesController#progress as HTML
+  Rendered pages/progress.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 75ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 13:51:07 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 13:51:26 +0100
+Processing by PagesController#progress as HTML
+  Rendered pages/progress.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1156ms (Views: 1136.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 13:51:28 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 13:51:37 +0100
+Processing by PagesController#progress as HTML
+  Rendered pages/progress.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 13:51:37 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 13:51:37 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 13:51:37 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 13:51:37 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 13:51:37 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 13:51:37 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 13:51:37 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 13:51:37 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 13:51:37 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 13:51:38 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:51:38 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 13:51:38 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:51:38 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 13:52:26 +0100
+Processing by PagesController#progress as HTML
+  Rendered pages/progress.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 99ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 13:52:26 +0100
+
+
+Started GET "/home" for ::1 at 2016-05-18 13:52:29 +0100
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (190.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (100.0ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (228.2ms)
+
+
+Started GET "/home" for ::1 at 2016-05-18 13:53:19 +0100
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (57.6ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (130.6ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 13:53:25 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (94.8ms)
+Completed 200 OK in 176ms (Views: 175.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 13:53:25 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 13:53:25 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 13:53:25 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 13:53:31 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 193ms (Views: 192.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 13:53:31 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 13:53:31 +0100
+
+
+Started GET "/3" for ::1 at 2016-05-18 13:53:37 +0100
+
+ActionController::RoutingError (No route matches [GET] "/3"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.8ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.0ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (114.6ms)
+
+
+Started GET "/3" for ::1 at 2016-05-18 13:53:38 +0100
+
+ActionController::RoutingError (No route matches [GET] "/3"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (84.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (117.9ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 13:54:38 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 13:54:38 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 13:54:38 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 13:54:38 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 13:54:38 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 13:54:38 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 13:54:38 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 13:54:38 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 13:54:38 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 13:54:39 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 13:54:39 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:54:39 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:54:39 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 13:54:39 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 13:54:39 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 13:54:39 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 13:54:39 +0100
+
+
+Started GET "/login" for ::1 at 2016-05-18 13:54:39 +0100
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (89.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.6ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (115.4ms)
+
+
+Started GET "/login" for ::1 at 2016-05-18 13:54:40 +0100
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/chineduabalogu/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (84.9ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/chineduabalogu/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (119.5ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 13:54:56 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 83ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 13:54:56 +0100
+
+
+Started GET "/signin" for ::1 at 2016-05-18 13:54:58 +0100
+Processing by PagesController#signin as HTML
+  Rendered pages/signin.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 77ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 13:54:58 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 13:55:04 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 116ms (Views: 115.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 14:01:10 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 632ms (Views: 630.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:01:11 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:01:20 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 98ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:01:20 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:01:21 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:01:56 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 89ms (Views: 88.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:01:56 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:01:56 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:01:56 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:01:56 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:01:56 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:01:56 +0100
+
+
+Started GET "/assets/p.self-aca9a4e629ac454c0c42a9a0cf3d3f72277a8b90a9fc19c8c17fcff4c82b6b8e.css?body=1" for ::1 at 2016-05-18 14:01:56 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:01:56 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:01:56 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:01:57 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:01:57 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:01:57 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:01:57 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:01:57 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:01:57 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:01:57 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:03:14 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1295ms (Views: 1294.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/p.self-6aa90561b7411fc8d83891cac7502ad3e48807703473445217b31d63df080f49.css?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:03:16 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:03:51 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 587ms (Views: 586.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/p.self-1f64ab4e3376b7ffd683b754cd92e3e647f1c17d918cf0f07fe2d3ed63ed3878.css?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:03:52 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:04:23 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 603ms (Views: 602.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/p.self-f3277cd43e9cc509b97bc7eccbcdfc39f7f3940cdc291b0736a97336d35ff484.css?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:04:24 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:07:31 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 1139ms (Views: 1138.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/p.self-aca6e39aa0586ad9d7a830a4d33d2eaeaa3007cf8084d5b121b8ab2de1ef8836.css?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:07:33 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:08:05 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 95ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/p.self-aca6e39aa0586ad9d7a830a4d33d2eaeaa3007cf8084d5b121b8ab2de1ef8836.css?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:08:06 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:08:56 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1038ms (Views: 1037.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:08:57 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:08:57 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:08:57 +0100
+
+
+Started GET "/assets/p.self-1b3d73b38c34937b44e91f7807773fd0459eac30b356ca341becab53126cec77.css?body=1" for ::1 at 2016-05-18 14:08:57 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:08:57 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:08:57 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:08:57 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:08:58 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:08:58 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:08:58 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:08:58 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:08:58 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:08:58 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:08:58 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:08:58 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:08:58 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:10:21 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 668ms (Views: 667.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/p.self-72c345ea36fac8de41efcdf1453ba1bb7a5a2320150dced9c533c4c7fdf6aff7.css?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:10:22 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:10:57 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 80ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:10:57 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/p.self-72c345ea36fac8de41efcdf1453ba1bb7a5a2320150dced9c533c4c7fdf6aff7.css?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:10:58 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:11:08 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 988ms (Views: 987.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/p.self-6699d199aef418d4b9969fa8ad6fe4746322d616808ea787bd8206da70f548c9.css?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:11:10 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:11:54 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 598ms (Views: 597.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/p.self-959339ada038334ef3788a51420c763997ea3106f08c91d05f4cf21901112b06.css?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:11:54 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:11:55 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:11:55 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:11:55 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:12:36 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 590ms (Views: 590.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/p.self-2fd39e02cc8e2339f871e29d266e969fd1885331bb3224bb2e251c6e3bc92efd.css?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:12:37 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:13:59 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 1162ms (Views: 1161.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/p.self-cde62ed4ecafbdd733c7b063d32cfdf9d94844abb9c8dd829258f7a9bd2c9e7e.css?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:14:00 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:14:09 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 633ms (Views: 632.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/p.self-3d93dacefa892c42e62a6b8071ef0f7105d7b88d118a252c2a014cbc49f466e7.css?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:14:10 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:16:13 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 95ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/p.self-3d93dacefa892c42e62a6b8071ef0f7105d7b88d118a252c2a014cbc49f466e7.css?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/assets/direction-c1cd352ccabbd01839b7113e60004a8762cdb6e7310db19294dfe06192e99379.png" for ::1 at 2016-05-18 14:16:13 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:16:35 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 87ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:16:35 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:16:35 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:16:35 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:16:35 +0100
+
+
+Started GET "/assets/p.self-3d93dacefa892c42e62a6b8071ef0f7105d7b88d118a252c2a014cbc49f466e7.css?body=1" for ::1 at 2016-05-18 14:16:35 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:16:35 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:16:36 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:16:36 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:16:36 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:16:36 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:16:36 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:16:36 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:16:36 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:16:36 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:16:36 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:17:55 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 85ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/p.self-3d93dacefa892c42e62a6b8071ef0f7105d7b88d118a252c2a014cbc49f466e7.css?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:17:55 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:17:56 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:17:56 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:18:40 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/p.self-3d93dacefa892c42e62a6b8071ef0f7105d7b88d118a252c2a014cbc49f466e7.css?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:18:40 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:19:03 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/p.self-3d93dacefa892c42e62a6b8071ef0f7105d7b88d118a252c2a014cbc49f466e7.css?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:19:03 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:19:04 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:19:04 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:19:04 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:19:04 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:20:08 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 82ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/p.self-3d93dacefa892c42e62a6b8071ef0f7105d7b88d118a252c2a014cbc49f466e7.css?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:20:08 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:25:53 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1883ms (Views: 1882.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/p.self-f47cea424b74e53a7ab083e3bac66c4d324b5687038c81188b456904ab9e84a7.css?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:25:55 +0100
+
+
+Started GET "/signin" for ::1 at 2016-05-18 14:26:11 +0100
+Processing by PagesController#signin as HTML
+  Rendered pages/signin.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 104ms (Views: 103.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:26:11 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:26:15 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 117ms (Views: 116.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for ::1 at 2016-05-18 14:26:22 +0100
+Processing by PagesController#signin as HTML
+  Rendered pages/signin.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 14:27:01 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 76ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/p.self-f47cea424b74e53a7ab083e3bac66c4d324b5687038c81188b456904ab9e84a7.css?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:27:01 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:34:12 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 533ms (Views: 532.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-a22dadfcec3ee6430e153ec8e830232af233b233588d6b238f4d749fe1a5cd58.css?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/input.self-1a9d9ecdf737c285ab7c17b3dc53518e44d5c94fe8e1ff39718ad4cd8f1db210.css?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/normalize.self-4d2c2293fe9d37ba4719e26353980bc44d3a7df456e67be35d8f4fa7d167a348.css?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/p.self-f47cea424b74e53a7ab083e3bac66c4d324b5687038c81188b456904ab9e84a7.css?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/skeleton.self-506783241dc2a9eedccf3f13ec3ee9573f4807883cb2d8b2849687879369cf5a.css?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/application.self-9704479c436012c4d2503bd4fa4acd7bff605caaf6994b3287b3147df5077a27.css?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/p.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:34:13 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:34:14 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 111ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:34:14 +0100
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:34:14 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:34:17 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:34:18 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:34:18 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:34:24 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:34:24 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:34:25 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 86ms (Views: 85.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:34:26 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:34:26 +0100
+
+
+Started GET "/signin" for ::1 at 2016-05-18 14:34:44 +0100
+Processing by PagesController#signin as HTML
+  Rendered pages/signin.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 96ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:34:45 +0100
+
+
+Started GET "/dashboard" for ::1 at 2016-05-18 14:34:50 +0100
+Processing by PagesController#landingpage9 as HTML
+  Rendered pages/_sidebar.html.erb (109.3ms)
+  Rendered pages/_header.html.erb (0.5ms)
+  Rendered pages/_footer.html.erb (0.3ms)
+  Rendered pages/landingpage9.html.erb within layouts/application (116.6ms)
+Completed 200 OK in 197ms (Views: 196.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:34:51 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2" for ::1 at 2016-05-18 14:34:51 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:35:13 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:35:13 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:35:13 +0100
+
+
+Started GET "/dashboard" for ::1 at 2016-05-18 14:35:57 +0100
+Processing by PagesController#landingpage9 as HTML
+  Rendered pages/_sidebar.html.erb (3.6ms)
+  Rendered pages/_header.html.erb (0.1ms)
+  Rendered pages/_footer.html.erb (0.0ms)
+  Rendered pages/landingpage9.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 84ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:35:57 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:35:59 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:35:59 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:37:15 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 73ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:37:15 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:37:16 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 80ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:37:17 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:37:17 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:37:17 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:37:18 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 84ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:37:18 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:37:24 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 77ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/suit.jpg" for ::1 at 2016-05-18 14:37:24 +0100
+
+
+Started GET "/assets/logo-st.png" for ::1 at 2016-05-18 14:37:25 +0100
+
+
+Started GET "/" for ::1 at 2016-05-18 14:37:25 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 85ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/back-image.png" for ::1 at 2016-05-18 14:37:25 +0100
+
+
+Started GET "/signup" for ::1 at 2016-05-18 14:37:27 +0100
+Processing by PagesController#landingpage10 as HTML
+  Rendered pages/landingpage10.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 88ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-18 14:37:44 +0100
+Processing by PController#home as HTML
+  Rendered p/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
