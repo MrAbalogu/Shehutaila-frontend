@@ -1,0 +1,53 @@
+<style type="text/css">
+	html, body {
+		height: 100%;
+	}
+</style>
+
+<div id="wrapper">
+	<div class ="three columns sidebar-container" style="margin: 0;">
+		<div class="logo-caption">
+			<div class="logo" ></div>
+	 	</div>
+	 	<div class="full-profile-data">
+	 		<div class="margin-auto"> <%= image_tag ("kanye.jpg"), :class => "images" %> </div>
+	 		<h6>Kanye West</h6>
+	 		<p>@kanyeezy</p>
+	 	</div>
+	 	<div class="recents-modal">
+	 		<h6>RECENTS</h6>
+	 		<hr>
+	 		<h6 style="float:left">Ankara 35</h6><h6 style="float:right">JUST NOW<h6>
+	 	</div>
+	 	<div class="shared-modal">
+	 		<h6>STARRED</h6>
+	 		<hr>
+	 		<h6>cotton glod</h6>
+	 	</div>
+	 	<div class="center">
+		    <div class="dots"></div>
+		</div>
+	</div>
+	<%= render "header" %>
+	<div class="seven columns modals-container" >
+		<div class="trad-modal">
+			<div class="trad-modal-header">
+				<h5>Ankara</h5> 
+				<p>Just now</p>
+			</div>
+			<div class="trad-modal-prize">
+				<p>$20,000</p>
+			</div>
+			<div class="trad-modal-description">
+				<ul>
+					<li> STYLE: <span style="color:#A8B2BF;font-weight:bold;">Jalabia</span> </li>
+					<li> MATERIAL: <span style="color:#A8B2BF;font-weight:bold;"> Alabi </span> </li>
+					<li><span style="color:#67C3EC;">expedited</span></li>
+				</ul>	
+				<button class="blue-button">VIEW STATUS</button> 
+			</div>
+			<hr>
+		</div>
+	</div>
+	<%= render "footer" %>
+</div>

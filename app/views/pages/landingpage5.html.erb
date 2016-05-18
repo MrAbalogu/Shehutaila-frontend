@@ -1,0 +1,103 @@
+<style type="text/css">
+	html, body {
+		height: 100%;
+		position: relative;
+	}
+</style>
+
+<div id="wrapper">
+
+	<%= render "sidebar" %>
+
+	<%= render "header" %>
+	<div class="vr">&nbsp;</div>
+	<div class="seven columns modals-container" >
+		<div class="details-modal">
+			<div class="pick-type">
+				<div class="circle_bullets"></div>	
+				<button class="small_button">Type</button>
+			</div>
+			<div class="pick-size">
+				<div class="circle_bullets"></div>
+				<h6 style="font-weight:bold;margin-bottom:10px;">PICK A SIZE</h6>
+				<button class="small_button" style="float:left;"> -- -- UK</button>
+				<h6 style="float:left;">This will be used for your measurements</h6>
+			</div>
+			<div class="pick-material">
+				<div class="circle_bullets"></div>
+				<h6 style="font-weight:bold;">MATERIAL</h6>
+				<h6 style="float:left;">I have my own my material</h6>
+				<button class="small_button" style="float:left;">choose one</button>
+			</div>
+			<div class="pick-style">
+				<div class="circle_bullets"></div>
+				<h6 style="font-weight:bold;margin-bottom:10px;">STYLE</h6>
+				<button class="small_button">choose one</button>
+			</div>
+			<div class="drop-note">
+				<div class="circle_bullets"></div>
+				<h6 style="margin-bottom:10px;"><span style="font-weight:bold;">DROP A NOTE</span> This is optional, drop a note for additional information</h6>
+				<textarea style="color:#E8E8E8;font-size:10px;width:300px;">Type something in... </textarea>
+			</div>
+			<div class="delivery-type">
+				<div class="circle_bullets"></div>
+				<h6 style="font-weight:bold;margin-bottom:10px;">DELIVERY TIME</h6>
+				<div class="delivery-modal">
+					<ul>
+						<li><h6><span style="font-weight:bold">Expedited</span> (2-3 working days) $5,000</h6></li>
+						<li><h6><span style="font-weight:bold">Regular</span> (5 working days) $0</h6></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>	
+	<%= render "footer" %>
+</div>
+<div class="overlay">
+	<div class="overlay-container">
+		<div class="search-header">
+			<ul>
+				<li>SEARCH</li>
+				<li>POPULAR</li>
+				<li>FAVOURITES</li>
+			</ul>
+			<hr>
+		</div>
+		<div class="search-modal">
+			<input class="" type="text" placeholder="search for a style.." />
+		</div>
+		<div class="search-results-container">
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+			<div class="search-results-box">
+				<div class="search-results"></div>
+			</div>
+		</div>
+		<button class="blue-button">UPLOAD STYLES</button>
+	</div>
+</div>

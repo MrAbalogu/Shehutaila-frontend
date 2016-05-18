@@ -1,0 +1,186 @@
+ 
+
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+/*
+Home
+_______________________________________________________________*/
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.signup-container  {
+	max-width: 540px;
+	margin: 0 auto;
+}
+/*navigation bar*/
+.lp-container {
+	height: 100%;
+	background-image: url("back-image.png");
+	background-size: cover;
+}
+
+.lp-overlay {
+	height: 100%;
+	background-color: rgba(40,53,73, .88)  ; /*#283549 opacity: 0.88;*/ 
+	position: relative;
+	
+}
+
+.nav-container {
+	padding: 40px 30px;
+}
+
+.logo {
+	background-image: url("logo-st.png");
+	width: 21px;
+	height: 13px;
+	background-size: cover;
+	margin: auto;
+}
+
+
+.nav ul li {
+	margin: 0 !important;
+	list-style-type: none;
+	display: inline;
+
+}
+
+.nav ul li a {
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	line-height: 19px;
+	
+}
+
+.nav li:last-child a  {
+	padding-left: 60px;
+}
+
+/*content*/
+
+.home-content {
+	padding-top: 12%;
+	padding-left: 15%;
+	max-width: 40%;
+}
+
+.home-content h1 {
+	font-size: 48px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.btn-container {
+	width: 100%;
+	padding-top: 25px;
+	
+}
+.btn {
+	background-color: #61c5eb;
+	text-transform: uppercase;
+	border-radius: 2px;
+	padding: 10px 10px;
+	width: 60%;	
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+.direction {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	width: 58px;
+	height: 31px;
+}
+
+
+/*footer*/
+.footer-container {
+	background-color: #283549;
+	padding: 60px 25px 10px;
+}
+
+.footer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.footer-nav ul li {
+	margin: 0 0 .5rem !important;
+	list-style-type: none;
+	line-height: 1;
+	/*display: inline;*/
+
+}
+
+.footer-nav ul li a {
+	text-transform: uppercase;
+	color: #828f99;
+	text-decoration: none;
+	line-height: 14px;
+	font-size: 14px;	
+	
+}
+
+.footer .copyright {
+	text-transform: uppercase;
+	color: #828f99;
+	text-decoration: none;
+	line-height: 14px;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+
+
+.footer .logo {
+	
+	width: 16px;
+	height: 10px;
+	line-height: 16px;
+	
+}
+
+/*Signup Page*/
+.su-container {
+	height: 100%;
+	background-image: url("back-image.png");
+	background-size: cover;
+}
+
+.su-overlay {
+	height: 100%;
+	background-color: rgba(40,53,73, .88)  ; /*#283549 opacity: 0.88;*/ 
+	position: relative;
+	
+}

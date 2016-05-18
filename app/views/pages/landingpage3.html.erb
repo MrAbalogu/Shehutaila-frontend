@@ -1,0 +1,57 @@
+<style type="text/css">
+	html, body {
+		height: 100%;
+		position: relative;
+	}
+</style>
+
+<div id="wrapper">
+
+	<div class ="three columns sidebar-container" style="margin: 0;">
+		<div class="logo-caption">
+			<div class="logo" ></div>
+	 	</div>
+	 	<div class="full-profile-data">
+	 		<div class="margin-auto"> <%= image_tag ("kanye.jpg"), :class => "images" %> </div>
+	 		<h6>Kanye West</h6>
+	 		<p>@kanyeezy</p>
+	 	</div>
+	 	<div class="recents-modal">
+	 		<h6>RECENTS</h6>
+	 		<hr>
+	 		<h6 style="float:left">Ankara 35</h6><h6 style="float:right">JUST NOW<h6>
+	 	</div>
+	 	<div class="shared-modal">
+	 		<h6>STARRED</h6>
+	 		<hr>
+	 		<h6>cotton glod</h6>
+	 	</div>
+	 	<div class="center">
+		    <div class="dots"></div>
+		</div>
+	</div>
+
+	<%= render "header" %>
+
+	<div class="status-container" >
+		<div class="circle-icon">
+			<
+		</div>
+		<div class="status-description">
+			<h3>Your current status</h3>
+			<h3><span style="color:black">Ankara</span></h3>
+			<h6>jarastyle</h6>
+			<h3><span style="color:black">#20,000</span></h3>
+		</div>
+		<div class="status-meter-box">
+			<div class="status-meter"></div>
+		</div>
+		<div class="status-footer">
+			<h6>EXPEDITED</h6>
+		</div>
+		<button class="blue-button"> GOT IT </button>
+	</div>
+	
+	<%= render "footer" %>	
+
+</div>	
