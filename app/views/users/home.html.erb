@@ -1,0 +1,55 @@
+<style type="text/css">
+	html, body {
+		height: 100%;
+	}
+</style>
+
+<div class="lp-container" >
+	<div class="lp-overlay" >
+
+		<div class="container" >
+			
+			<div class="nav-container ">
+					<ul>	
+						<% if user_signed_in? %>
+							<li class="pull-right">MY PROFILE</li>
+						<% else %>
+							<li class="logo pull-left" style="padding:0"></li>
+							<li class="pull-right"><a class="mylist" href="/users/sign_in">LOGIN</a></li>
+							<li class="pull-right"><a class="mylist" href="/users/sign_up">SIGNUP</a></li>
+						<% end %>
+					</ul>
+			</div>
+
+			<div class="home-content" >
+				<h1>Bringing <span class="caption-gray">to</span> you <span class="caption-gray">the best <br>tailoring </span> expierience</h1>
+				<% if user_signed_in? %>
+				<% else %>
+				<form action="/users/sign_up">
+				<button class="blue-button">SIGN UP</button>
+				</form>
+				<% end %>
+			</div>
+
+		</div>
+		
+	</div>	
+</div>
+<div class="footer-container" >
+	<div class="footer" >
+
+		<div class="footer-nav" >
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">The Team</a></li>
+				<li><a href="#">Advertise</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+
+		<div class="copyright" >
+			<div class="logo pull-right" ></div>
+			<p>Copyright © Shehutaila 2015</p>			
+		</div>
+	</div>
+</div>

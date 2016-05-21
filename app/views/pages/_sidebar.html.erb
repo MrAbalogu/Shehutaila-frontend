@@ -3,8 +3,12 @@
 		<a href="/"><div class="logo" ></div></a>
  	</div>
  	<div class="full-profile-data">
- 		<div class="margin-auto"> <%= image_tag ("kanye.jpg"), :class => "images" %> </div>
- 		<h6>Kanye West</h6>
- 		<p>@kanyeezy</p>
+ 		<% if user_signed_in? %>
+ 		<div class="margin-auto">
+ 			<div class="images" style="background-image: url(<%=current_user.avatar.url(:thumb)%>);"></div>
+ 		 </div>
+ 		<h6><%= current_user.first_name%> <%= current_user.last_name %></h6>
+ 		<p><%= current_user.username %></p>
+ 		<% end %>
  	</div>
 </div>

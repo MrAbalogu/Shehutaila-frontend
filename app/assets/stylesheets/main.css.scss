@@ -72,9 +72,9 @@ $breakpoint_850: 850px;
 
 .images {
   display: block;
-  border-radius: 50px;
-  width: 80px;
-  height: 80px;
+  border-radius: 35px;
+  width: 70px;
+  height: 70px;
   margin: auto;
 }
 
@@ -291,7 +291,7 @@ header li {
 }
 
 /******************************************* 
-             SIGNUP PAGE STYLES  
+             SIGNUP SIGNIN PAGE STYLES  
 ********************************************/
 
 .background-image {
@@ -304,6 +304,44 @@ header li {
     ),
     /* bottom, image */
     url(suit.jpg);
+}
+
+.checkbox-field {
+  color: $light_gray;
+  width: 100%;
+  display: inline-block;
+  margin: 10px 40% 0 35%;
+}
+
+.float-left {
+  float: left;
+  margin-bottom: 0;
+}
+
+.check-label {
+  margin-left: 10px;
+}
+
+.check {
+  margin-top: 6px;
+}
+
+.shared-links {
+  margin-left: 35%;
+}
+
+.button {
+  background-color: $light_blue;
+  border: 0;
+  color: white;
+  margin: 10px 45% 0 45%;
+}
+
+.button2 {
+  background-color: $light_blue;
+  border: 0;
+  color: white;
+  margin: 10px 45% 0 35%;
 }
 
 /******************************************* 

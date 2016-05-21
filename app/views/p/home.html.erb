@@ -10,18 +10,25 @@
 		<div class="container" >
 			
 			<div class="nav-container ">
-					<ul>
-						<li class="logo pull-left" style="padding:0"></li>
-						<li class="pull-right"><a class="mylist" href="/signin">LOGIN</a></li>
-						<li class="pull-right"><a class="mylist" href="/signup">SIGNUP</a></li>
+					<ul>	
+						<% if user_signed_in? %>
+							<%= link_to "current_user_show", current_user %>
+						<% else %>
+							<li class="logo pull-left" style="padding:0"></li>
+							<li class="pull-right"><a class="mylist" href="/users/sign_in">LOGIN</a></li>
+							<li class="pull-right"><a class="mylist" href="/users/sign_up">SIGNUP</a></li>
+						<% end %>
 					</ul>
 			</div>
 
 			<div class="home-content" >
 				<h1>Bringing <span class="caption-gray">to</span> you <span class="caption-gray">the best <br>tailoring </span> expierience</h1>
-				<form action="/signup">
+				<% if user_signed_in? %>
+				<% else %>
+				<form action="/users/sign_up">
 				<button class="blue-button">SIGN UP</button>
 				</form>
+				<% end %>
 			</div>
 
 		</div>

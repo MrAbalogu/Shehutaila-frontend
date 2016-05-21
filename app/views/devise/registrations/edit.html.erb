@@ -1,0 +1,70 @@
+<div class ="three columns sidebar-container" style="margin: 0;">
+  <div class="logo-caption">
+    <a href="/"><div class="logo" ></div></a>
+  </div>
+  <div class="full-profile-data">
+    <% if user_signed_in? %>
+    <div class="margin-auto">
+      <div class="images" style="background-image: url(<%=current_user.avatar.url(:thumb)%>);"></div>
+     </div>
+    <h6><%= current_user.first_name%> <%= current_user.last_name %></h6>
+    <p><%= current_user.username %></p>
+    <% end %>
+  </div>
+</div>
+
+<header id="header">
+  <p class="header-logo"><span style="color:#67C3EC">SHEHU</span>TAILA</p>
+  <% if user_signed_in? %>
+    <li>
+    <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+    </li>
+  <% else %>
+    <li>
+    <%= link_to('Login', new_user_session_path)  %>  
+    </li>
+  <% end %>
+  <ul>
+    <li><button class="header_button">Explore</button></li>
+    <li> <div class="bell-icon"> <%= icon('bell') %> </div> </li>
+  </ul>
+</header>
+
+<p style="text-align:center"> <b> Edit Profile </b> </p>
+<div class="five columns" style="margin-left:20px">
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+  <%= devise_error_messages! %>
+
+<b> Avatar: </b> <%= f.file_field :avatar %><br>
+
+<b> Username: </b> <%= f.text_field :username, autofocus: true %><br>
+
+<b> First name: </b> <%= f.text_field :first_name, autofocus: true %><br>
+
+<b> Last name: </b> <%= f.text_field :last_name, autofocus: true %><br>
+
+<b> Email address: </b> <%= f.email_field :email, autofocus: true %><br>
+
+
+  <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+    <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
+  <% end %>
+
+  <i>(leave blank if you don't want to change it)</i><br>
+  <b> Password: </b> <%= f.password_field :password, autocomplete: "off" %><br>
+
+  <b> Password confirmation: </b> <%= f.password_field :password_confirmation, autocomplete: "off" %><br>
+
+  <i>(we need your current password to confirm your changes)</i><br>
+  <b> Current password: </b> <%= f.password_field :current_password, autocomplete: "off" %><br>
+
+  <%= f.submit "Update" %><br>
+<% end %>
+</div>
+<div class="four columns">
+<b>Cancel my account</b>
+
+<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+
+<%= link_to "Back", :back %>
+<div>

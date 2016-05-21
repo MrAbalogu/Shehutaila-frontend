@@ -1,0 +1,7 @@
+<%= form_for current_user, url: profile_path do |f| %>
+   <%= f.fields_for :profile do |p| %>
+      <%= p.text_field :first_name %>
+      <%= p.text_field :last_name %>
+   <% end %>
+   <%= f.submit %>
+<% end %>
