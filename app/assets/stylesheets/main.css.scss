@@ -365,9 +365,24 @@ header li {
   }
 
   .landing_text_area {
-  margin: 60% 15% 15% 35%;
+  margin: 80% 15% 15% 15%;
+  }
+
+  #primary_nav_wrap ul li:hover
+  {
+    background: $responsive_blue;
   }
   
+  #primary_nav_wrap ul li:hover > ul
+  {
+    display:block;
+    background-color: transparent;
+  }
+
+  #primary_nav_wrap ul a
+  {
+    color: $light_gray;
+  }
 }
 
 /******************************************* 
