@@ -312,12 +312,10 @@ input[type="button"].button-primary:focus {
 }
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-input[type="email"],
 input[type="number"],
 input[type="search"],
 input[type="tel"],
 input[type="url"],
-input[type="password"],
 textarea,
 select {
   height: 38px;
