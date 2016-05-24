@@ -28,8 +28,6 @@ Rails.application.configure do
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
-  config.action_mailer.default_url_options = { host: 'shehutaila.com', port: 3000 }
-
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
 
@@ -83,5 +81,16 @@ Rails.application.configure do
   # serve static assets
   config.serve_static_files = true
   config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
+
+  config.action_mailer.default_url_options = { host: 'shehutaila.com' }
+
+  ActionMailer::Base.smtp_settings = {
+    :address => "smtp.sendgrid.net",
+    :port => '587',
+    :domain => "shehutaila.com",
+    :authentication => :plain,
+    :user_name => ENV['SENDGRID_USERNAME'],
+    :password => ENV['SENDGRID_PASSWORD']
+  }
 
 end
