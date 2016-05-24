@@ -83,14 +83,14 @@ Rails.application.configure do
   config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 
   config.action_mailer.default_url_options = { host: 'shehutaila.com' }
-  ActionMailer::Base.smtp_settings = {
-    :address        => "smtp.sendgrid.net",
-    :port           => "25",
-    :authentication => :plain,
-    :user_name      => ENV['SENDGRID_USERNAME'],
-    :password       => ENV['SENDGRID_PASSWORD'],
-    :domain         => ENV['SENDGRID_DOMAIN']
-  }
+  # ActionMailer::Base.smtp_settings = {
+  #   :address        => "smtp.sendgrid.net",
+  #   :port           => "25",
+  #   :authentication => :plain,
+  #   :user_name      => ENV['SENDGRID_USERNAME'],
+  #   :password       => ENV['SENDGRID_PASSWORD'],
+  #   :domain         => ENV['SENDGRID_DOMAIN']
+  # }
 
   # Paperclip assets storage configuration settings 
   config.paperclip_defaults = {
