@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  devise_for :users
+  devise_for :users, controllers: { registrations: "registrations" }
 
   authenticated :user do
     root 'pages#landingpage9', as: :authenticated_root

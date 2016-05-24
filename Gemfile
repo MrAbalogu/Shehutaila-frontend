@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem "paperclip", "~> 5.0.0.beta1"
 gem 'bcrypt', '~> 3.1.7'
+gem 'aws-sdk', '~> 2'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'

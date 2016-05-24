@@ -15,9 +15,7 @@
 
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <div styles="color:white">
     <%= devise_error_messages! %>
-  </div>
 
   <span class="input input--nao">
     <%= f.text_field :username, :class => 'input__field input__field--nao', :id => 'input-1' %>

@@ -775,3 +775,21 @@ header li {
   margin-top: 20px;
   color: $light_blue;
 }
+
+/******************************************* 
+              DEVISE STYLES  
+********************************************/
+
+#error_explanation {
+  color: $light_blue;
+  text-align: center;
+
+  h2 {
+    font-size: 20px;
+    font-weight: bold; }
+
+  p {
+    font-size: 10px;
+    font-weight: bold;
+  }
+}
