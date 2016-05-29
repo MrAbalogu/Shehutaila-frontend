@@ -6,12 +6,16 @@
 
 $dark_blue: #202330;
 $medium_gray: #A8B2BF;
-$light_gray: #E8E8E8;
+$light_gray: rgba(130,143,153, 0.50);
+$light_black: rgba(130,143,153, 0.20);
 $gray: #939FAB;
 $dark_gray: #474D62;
+$dark_purple: #222533;
+$grey_purple: #434655;
 $handle_color: #858DA7;
 $light_blue: #67C3EC;
 $green: #A0EA4F;
+$letter-spacing: 2px;
 $responsive_blue: #474D62;
 
 /* Breakpoints */
@@ -151,7 +155,7 @@ $breakpoint_850: 850px;
 /* HEADER STYLES */
 
 header {
-  border-bottom: 0.5px solid $light_gray;
+  border-bottom: 0.5px solid $light_black;
   height: 50px;
 }
 
@@ -270,8 +274,9 @@ header li {
 
 .landing_text_area h3 {
   margin: 0;
-  color: $gray;
+  color: $light_gray;
   font-weight: 300;
+  letter-spacing: 2.25px
 }
 
 .landing_buttons_container {
@@ -793,3 +798,17 @@ header li {
     font-weight: bold;
   }
 }
+
+// IPALIBO'S STYLES
+
+.mylist{
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+button{
+  &.blue-button{
+    padding: 0px 10%;
+  }
+}
+

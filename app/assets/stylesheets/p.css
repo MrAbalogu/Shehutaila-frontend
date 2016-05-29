@@ -38,7 +38,7 @@ _______________________________________________________________*/
 /*navigation bar*/
 .lp-container {
 	height: 100%;
-	background-image: url("back-image.png");
+	background-image: url("back-image-2.png");
 	background-size: cover;
 }
 
@@ -141,7 +141,7 @@ _______________________________________________________________*/
 
 /*footer*/
 .footer-container {
-	background-color: #283549;
+	background-color: #222533;
 	padding: 60px 25px 10px;
 }
 
@@ -160,21 +160,23 @@ _______________________________________________________________*/
 
 .footer-nav ul li a {
 	text-transform: uppercase;
-	color: #828f99;
+	color: #434655;
 	text-decoration: none;
 	line-height: 14px;
-	font-size: 14px;	
-	
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 2px;
 }
 
 .footer .copyright {
 	text-transform: uppercase;
-	color: #828f99;
+	color: #434655;
 	text-decoration: none;
 	line-height: 14px;
-	font-size: 14px;
 	text-align: center;
-
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 2px;
 }
 
 

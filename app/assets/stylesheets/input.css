@@ -28,7 +28,8 @@
   float: right;
   padding: 0 1em;
   width: 40%;
-  color: #696969;
+  text-transform: uppercase;
+  color: rgba(140,152,172, 0.40);
   font-weight: bold;
   font-size: 70.25%;
   -webkit-font-smoothing: antialiased;
@@ -39,6 +40,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-size: 10px;
 }
 .input__label-content {
   position: relative;
@@ -68,7 +70,7 @@
   padding: 0.5em 0em 0.25em;
   width: 100%;
   background: transparent;
-  color: #9da8b2;
+  color: white;
   font-size: 1.25em;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -76,7 +78,7 @@
 .input__label--nao {
   position: absolute;
   top: 0.95em;
-  font-size: 0.85em;
+  font-size: 11px;
   left: 0;
   display: block;
   width: 100%;
@@ -89,9 +91,10 @@
   transition: transform 0.2s 0.15s, color 1s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+  letter-spacing: 2px;
 }
 .graphic--nao {
-  stroke: #92989e;
+  stroke: #4F565F;
   pointer-events: none;
   -webkit-transition: -webkit-transform 0.7s, stroke 0.7s;
   transition: transform 0.7s, stroke 0.7s;
@@ -100,13 +103,13 @@
 }
 .input__field--nao:focus + .input__label--nao,
 .input--filled .input__label--nao {
-  color: #333;
+  color: white;
   -webkit-transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
   transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
 }
 .input__field--nao:focus ~ .graphic--nao,
 .input--filled .graphic--nao {
-  stroke: #333;
+  stroke: #4F565F;
   -webkit-transform: translate3d(-66.6%, 0, 0);
   transform: translate3d(-66.6%, 0, 0);
 }
