@@ -28,6 +28,29 @@ $breakpoint_850: 850px;
 ********************************************/
 
 /********************* 
+  ADMIN STYLES
+*********************/
+.admin-sidebar {
+  background-color: $dark_blue;
+  height: 100%;
+
+  ul {
+    margin-top: 50px;
+  }
+
+  ul li a {
+    text-decoration: none;
+  }
+}
+.sidebar-header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+/********************* 
   COMPONENTS STYLES
 *********************/
 

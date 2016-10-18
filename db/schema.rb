@@ -11,13 +11,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160521195131) do
+ActiveRecord::Schema.define(version: 20161018160118) do
 
   create_table "profiles", force: :cascade do |t|
     t.string   "first_name"
     t.string   "last_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "styles", force: :cascade do |t|
+    t.string   "name"
+    t.string   "stock"
+    t.text     "description"
+    t.string   "color"
+    t.string   "color1"
+    t.string   "color2"
+    t.string   "color3"
+    t.string   "color4"
+    t.string   "tribe"
+    t.string   "location"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "users", force: :cascade do |t|

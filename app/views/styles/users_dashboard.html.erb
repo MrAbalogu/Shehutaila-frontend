@@ -1,0 +1,21 @@
+<style type="text/css">
+	html, body {
+		height: 100%;
+	}
+</style>
+<div class="three columns admin-sidebar">
+	<div class="sidebar-header" >
+		Admin page
+	</div>
+	<ul style="text-align:center; ">
+		<li><a href="/admin/users">Users</a></li>
+		<li><a href="/admin/styles">Styles</a></li>
+	</ul>
+</div>
+<div class="nine columns">
+	<h3>Total users: <%= @users.count %></h3>
+	<h5>
+	<% @users.each do |u| %>
+		- <%= u.username %> <br>
+	<% end %><h5>
+</div>

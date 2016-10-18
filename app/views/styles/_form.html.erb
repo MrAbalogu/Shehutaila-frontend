@@ -1,0 +1,61 @@
+<%= form_for(@style) do |f| %>
+  <% if @style.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@style.errors.count, "error") %> prohibited this style from being saved:</h2>
+
+      <ul>
+      <% @style.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<div class="six columns">
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :stock %>
+    <%= f.text_field :stock %>
+  </div>
+  <div class="field">
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :color %>
+    <%= f.text_field :color %>
+  </div>
+  <div class="field">
+    <%= f.label :color1 %>
+    <%= f.text_field :color1 %>
+  </div>
+  <div class="field">
+    <%= f.label :color2 %>
+    <%= f.text_field :color2 %>
+  </div>
+  <div class="field">
+    <%= f.label :color3 %>
+    <%= f.text_field :color3 %>
+  </div>
+</div>  
+
+<div class="six columns">
+  <div class="field">
+    <%= f.label :color4 %>
+    <%= f.text_field :color4 %>
+  </div>
+  <div class="field">
+    <%= f.label :tribe %>
+    <%= f.text_field :tribe %>
+  </div>
+  <div class="field">
+    <%= f.label :location %>
+    <%= f.text_field :location %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+</div>  
+<% end %>

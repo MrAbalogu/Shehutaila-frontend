@@ -1,0 +1,63 @@
+<style type="text/css">
+	html, body {
+		height: 100%;
+	}
+</style>
+<div class="three columns admin-sidebar">
+	<div class="sidebar-header" >
+		Admin page
+	</div>
+	<ul style="text-align:center; ">
+		<li><a href="/admin/users">Users</a></li>
+		<li><a href="/admin/styles">Styles</a></li>
+	</ul>
+</div>
+<div class="nine columns">
+
+<h1>Listing Styles</h1>
+
+<h3>Total styles: <%= @styles.count %></h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Stock</th>
+      <th>Description</th>
+      <th>Color</th>
+      <th>Color1</th>
+      <th>Color2</th>
+      <th>Color3</th>
+      <th>Color4</th>
+      <th>Tribe</th>
+      <th>Location</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @styles.each do |style| %>
+      <tr>
+        <td><%= style.name %></td>
+        <td><%= style.stock %></td>
+        <td><%= style.description %></td>
+        <td><%= style.color %></td>
+        <td><%= style.color1 %></td>
+        <td><%= style.color2 %></td>
+        <td><%= style.color3 %></td>
+        <td><%= style.color4 %></td>
+        <td><%= style.tribe %></td>
+        <td><%= style.location %></td>
+        <td><%= link_to 'Show', style %></td>
+        <td><%= link_to 'Edit', edit_style_path(style) %></td>
+        <td><%= link_to 'Destroy', style, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Style', new_style_path %>
+
+</div>
