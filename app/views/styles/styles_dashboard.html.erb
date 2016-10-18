@@ -28,9 +28,9 @@
       <th>Color1</th>
       <th>Color2</th>
       <th>Color3</th>
-      <th>Color4</th>
       <th>Tribe</th>
       <th>Location</th>
+      <th>image</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -45,12 +45,12 @@
         <td><%= style.color1 %></td>
         <td><%= style.color2 %></td>
         <td><%= style.color3 %></td>
-        <td><%= style.color4 %></td>
         <td><%= style.tribe %></td>
         <td><%= style.location %></td>
+        <th><%= image_tag style.avatar.url(:thumb) %></th>
         <td><%= link_to 'Show', style %></td>
         <td><%= link_to 'Edit', edit_style_path(style) %></td>
-        <td><%= link_to 'Destroy', style, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'X', style, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
